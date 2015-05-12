@@ -35,5 +35,8 @@
   "scripts": {
     "test": "node ./test/every-test.js",
     "build": "uglifyjs -o ./big.min.js ./big.js"
-  }
+  },
+  "files": [
+    "big.js"
+  ]
 }
